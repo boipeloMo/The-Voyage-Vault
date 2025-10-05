@@ -52,5 +52,82 @@ Optimized for desktop and mobile using **Tailwind CSS**, ensuring usability acro
 
 ---
 
-## 📂 Folder Structure
+💡 How It Works
+
+On the Landing Page, users can search for a destination or click “Start Planning.”
+
+The Dashboard shows saved trips and allows users to add a new one.
+
+The Destination Details page displays attractions and allows adding them to an itinerary.
+
+Users can view and manage their saved itineraries anytime.
+
+📱 Responsive Design
+
+The app uses Tailwind CSS to adapt seamlessly across screen sizes:
+
+Desktop Layouts: Display multiple columns for destinations.
+
+Mobile Layouts: Collapse grids into single-column scrollable views.
+
+Buttons and inputs are sized for easy mobile interaction.
+
+🚀 Deployment
+
+Once the project is complete, deploy it easily using one of these platforms:
+
+Vercel Deployment
+
+Push your project to GitHub.
+
+Go to Vercel
+.
+
+Import your GitHub repository.
+
+Click “Deploy.”
+
+Netlify Deployment
+
+Visit Netlify
+.
+
+Select “Import from Git.”
+
+Connect your GitHub repository.
+
+Click “Deploy Site.”
+
+🧑‍💻 Challenges Faced
+
+Understanding how to structure a React app with multiple pages.
+
+Fetching data securely from a travel API.
+
+Managing state between itinerary components.
+
+Implementing responsive layouts for both desktop and mobile.
+
+🪜 Next Steps / Future Improvements
+
+Add authentication (user login/signup).
+
+Integrate Google Maps API for live map previews.
+
+Allow users to export or share itineraries.
+
+Implement dark mode for better accessibility.
+
+🧾 License
+
+This project is open-source and available under the MIT License
+.
+
+👩🏽‍💻 Author
+
+Boipelo Moabi
+Frontend Developer | Capstone Project 2025
+GitHub: github.com/boipeloMo
+
+Deployed App: Live Link (if available)
 
