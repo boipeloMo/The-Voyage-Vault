@@ -1,4 +1,4 @@
-# The-Voyage-Vault
+# The-Voyage-Vault- "All your Journeys in one Vault"
 # 🧭 Travel Planner Application
 
 ## 🌍 Overview
@@ -51,6 +51,38 @@ Optimized for desktop and mobile using **Tailwind CSS**, ensuring usability acro
 | Deployment | **Netlify** or **Vercel** |
 
 ---
+## Project Structure
+voyage-vault/
+├─ package.json
+├─ vite.config.js
+├─ postcss.config.cjs
+├─ tailwind.config.cjs
+├─ README.md
+├─ public/
+│ ├─ index.html
+│ ├─ favicon.ico (placeholder)
+│ ├─ placeholder-1.jpg (placeholder image)
+│ └─ placeholder-2.jpg
+└─ src/
+├─ main.jsx
+├─ App.jsx
+├─ index.css
+├─ components/
+│ ├─ Header.jsx
+│ ├─ Footer.jsx
+│ ├─ DestinationCard.jsx
+│ ├─ DestinationCloud.jsx
+│ ├─ DestinationForm.jsx
+│ └─ ItineraryList.jsx
+├─ pages/
+│ ├─ Home.jsx
+│ ├─ Destinations.jsx
+│ └─ ItineraryPage.jsx
+├─ utils/
+│ └─ validators.js
+└─ tests/
+├─ Header.test.jsx
+└─ DestinationForm.test.jsx
 
 💡 How It Works
 
@@ -107,16 +139,6 @@ Fetching data securely from a travel API.
 Managing state between itinerary components.
 
 Implementing responsive layouts for both desktop and mobile.
-
-🪜 Next Steps / Future Improvements
-
-Add authentication (user login/signup).
-
-Integrate Google Maps API for live map previews.
-
-Allow users to export or share itineraries.
-
-Implement dark mode for better accessibility.
 
 🧾 License
 
