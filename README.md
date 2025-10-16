@@ -51,8 +51,8 @@ Optimized for desktop and mobile using **Tailwind CSS**, ensuring usability acro
 | Deployment | **Netlify** or **Vercel** |
 
 ---
-## Project Structure
-voyage-vault/
+## 📁 Project structure
+📦 voyage-vault/
 ├─ package.json
 ├─ vite.config.js
 ├─ postcss.config.cjs
