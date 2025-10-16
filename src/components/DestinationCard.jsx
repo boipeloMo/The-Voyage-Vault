@@ -1,11 +1,16 @@
-import React from 'react';
+import React from 'react'
 
-const DestinationCard = ({ name, description, image }) => (
-  <div className="border rounded-lg shadow-md overflow-hidden p-4 max-w-sm">
-    <img className="w-full h-48 object-cover" src={image} alt={name} />
-    <h2 className="font-bold text-lg mt-2">{name}</h2>
-    <p className="text-gray-700">{description}</p>
-  </div>
-);
 
-export default DestinationCard;
+export default function DestinationCard({dest, onAdd}){
+return (
+<div className="bg-white rounded-lg shadow p-4 flex flex-col">
+<img src={dest.image || '/placeholder-1.jpg'} alt={dest.name} className="h-40 object-cover rounded-md mb-3" />
+<h3 className="text-lg font-semibold">{dest.name}</h3>
+<p className="text-sm text-slate-600 mt-1">{dest.country}</p>
+<p className="flex-1 text-sm text-slate-500 mt-2">{dest.description}</p>
+<div className="mt-3 flex gap-2">
+<button onClick={() => onAdd(dest)} className="px-3 py-2 bg-teal-500 text-white rounded-md hover:bg-teal-600">Add to itinerary</button>
+</div>
+</div>
+)
+}
