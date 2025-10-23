@@ -20,6 +20,8 @@ export default function Header() {
           <Link className={`hover:text-accent ${loc.pathname === '/' ? 'text-accent font-medium' : 'text-slate-700'}`} to="/">Home</Link>
           <Link className={`hover:text-accent ${loc.pathname.startsWith('/destinations') ? 'text-accent font-medium' : 'text-slate-700'}`} to="/destinations">Destinations</Link>
           <Link className={`hover:text-accent ${loc.pathname === '/itinerary' ? 'text-accent font-medium' : 'text-slate-700'}`} to="/itinerary">Itinerary</Link>
+          <Link className={`hover:text-accent ${loc.pathname === '/about' ? 'text-accent font-medium' : 'text-slate-700'}`} to="/about">About</Link>
+          <Link className={`hover:text-accent ${loc.pathname === '/contact' ? 'text-accent font-medium' : 'text-slate-700'}`} to="/contact">Contact</Link>
           <a className="ml-4 inline-block px-3 py-1 border rounded text-sm" href="#book">Book</a>
         </nav>
       </div>
