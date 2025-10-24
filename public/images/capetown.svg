@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<rect width="100%" height="100%" fill="#e6f7f6" />
+<g transform="translate(100,200)">
+<path d="M0 300 C200 100 400 100 600 300 C800 500 1000 500 1200 300 L1200 800 L0 800 Z" fill="#cfe9e8" />
+<circle cx="220" cy="160" r="80" fill="#ffd166" />
+<text x="40" y="520" font-size="48" fill="#0f172a" font-family="sans-serif">Cape Town</text>
+</g>
+</svg>
