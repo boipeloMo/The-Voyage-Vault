@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+<rect width="100%" height="100%" fill="#fff7ed" />
+<g transform="translate(80,220)">
+<path d="M0 360 C250 100 500 100 750 360 L750 800 L0 800 Z" fill="#ffd9a6" />
+<rect x="80" y="60" width="320" height="200" rx="20" fill="#bde0fe" />
+<text x="40" y="520" font-size="48" fill="#0f172a" font-family="sans-serif">Mauritius</text>
+</g>
+</svg>
