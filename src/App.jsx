@@ -8,11 +8,11 @@ import Itinerary from "./pages/Itinerary";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 
-export default function App() {
+function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="flex flex-col min-h-screen bg-gray-50 text-gray-800">
       <Header />
-      <main className="flex-1 container mx-auto px-4 py-8">
+      <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/destinations" element={<Destinations />} />
@@ -25,4 +25,6 @@ export default function App() {
     </div>
   );
 }
+
+export default App;
 
