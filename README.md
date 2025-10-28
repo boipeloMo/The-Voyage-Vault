@@ -1,41 +1,33 @@
 # 🌍 The Voyage Vault
 
-**By:** Boipelo Kenya Moabi  
-**Motto:** “All your journeys in one vault.”
-
-A modern travel planning app built with **React**, **Vite**, and **Tailwind CSS** — created as a Capstone Project and presented on **Loom**.
+**A Travel Agency Planner App by Boipelo Kenya Moabi**  
+**Motto:** *All your journeys in one vault.*
 
 ---
 
-## ✨ Features
+## 🚀 Overview
+The Voyage Vault is a React + Vite travel agency app that allows users to:
+- Explore destinations 🗺️  
+- Plan and store itineraries 📝  
+- Learn about the agency 🌍  
+- Contact us easily 📧  
 
-- Responsive React app with **5 pages**
-  - Home (animated hero section)
-  - Destinations (add to itinerary)
-  - Itinerary (persistent local storage)
-  - About
-  - Contact (interactive form)
-- Smooth animations with **Framer Motion**
-- Persistent itinerary using `localStorage`
-- Modern UI with Tailwind CSS
-- Deployed locally or via GitHub Pages
+Built with **React**, **Tailwind CSS**, **React Router**, and **Framer Motion**.
 
 ---
 
-## 🧱 Tech Stack
-
-- React + Vite
-- Tailwind CSS
-- Framer Motion
-- React Router DOM
-- LocalStorage (for itinerary persistence)
+## 🛠️ Tech Stack
+- **Frontend Framework:** React (Vite)
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Animation:** Framer Motion
+- **State & Storage:** useState + LocalStorage
 
 ---
 
-## 🚀 Getting Started
+## 📂 Project Setup
 
-### 1. Clone the repository
-
+### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/voyage-vault.git
-cd voyage-vault
+git clone https://github.com/YOUR_USERNAME/the-voyage-vault.git
+cd the-voyage-vault
