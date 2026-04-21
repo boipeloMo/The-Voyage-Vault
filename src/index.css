@@ -2,7 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply bg-white text-gray-900;
-  font-family: 'Inter', sans-serif;
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  * {
+    @apply box-border;
+  }
+
+  html {
+    @apply scroll-smooth overflow-x-clip;
+  }
+
+  body {
+    @apply min-h-screen overflow-x-clip bg-slate-950 text-slate-100 antialiased;
+    font-family: "Aptos", "Segoe UI", "Trebuchet MS", sans-serif;
+    background-image:
+      radial-gradient(circle at top, rgba(56, 189, 248, 0.12), transparent 32%),
+      linear-gradient(180deg, #0f172a 0%, #020617 100%);
+    text-wrap: pretty;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", serif;
+    letter-spacing: -0.02em;
+    overflow-wrap: anywhere;
+  }
+
+  a,
+  button,
+  input,
+  textarea {
+    @apply transition duration-200;
+  }
+
+  img,
+  svg,
+  video,
+  canvas {
+    @apply block max-w-full;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  ::selection {
+    background: rgba(56, 189, 248, 0.35);
+    color: #f8fafc;
+  }
+}
+
+@layer components {
+  .page-shell {
+    @apply mx-auto w-full max-w-7xl px-4 md:px-6 lg:px-8;
+  }
+
+  .section-card {
+    @apply min-w-0 rounded-[1.5rem] border border-white/10 bg-white/5 p-4 shadow-2xl shadow-slate-950/30 backdrop-blur md:rounded-[1.75rem] md:p-6 lg:rounded-[2rem] lg:p-8;
+  }
+
+  .glass-panel {
+    @apply rounded-[1.5rem] border border-white/10 bg-white/10 backdrop-blur;
+  }
+
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.24em] text-sky-300 md:tracking-[0.3em];
+  }
+
+  .display-title {
+    @apply text-3xl font-semibold leading-tight text-white md:text-5xl lg:text-6xl;
+  }
+
+  .section-title {
+    @apply text-2xl font-semibold leading-tight text-white md:text-3xl lg:text-4xl;
+  }
+
+  .body-copy {
+    @apply text-sm leading-7 text-slate-300 md:text-base;
+  }
+
+  .btn-primary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-full bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950 shadow-lg shadow-sky-500/20 hover:bg-sky-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950;
+  }
+
+  .btn-secondary {
+    @apply inline-flex min-h-12 items-center justify-center rounded-full border border-white/15 bg-white/5 px-5 py-3 text-sm font-semibold text-white hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-sky-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950;
+  }
+
+  .input-field {
+    @apply min-h-12 w-full rounded-2xl border border-white/10 bg-slate-950/70 px-4 py-3 text-base text-slate-100 placeholder:text-slate-500 focus:border-sky-400 focus:outline-none focus:ring-2 focus:ring-sky-400/20 md:text-sm;
+  }
 }

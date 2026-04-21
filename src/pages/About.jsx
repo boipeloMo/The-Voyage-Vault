@@ -2,14 +2,26 @@ import React from "react";
 
 export default function About() {
   return (
-    <section className="py-12 px-6 text-center max-w-3xl mx-auto">
-      <h2 className="text-3xl font-bold mb-4">About The Voyage Vault</h2>
-      <p className="text-gray-600 mb-6">
-        The Voyage Vault is your personal travel companion — designed by <strong>Boipelo Kenya Moabi</strong> as a capstone project to help explorers plan, store, and revisit their journeys easily.
-      </p>
-      <p className="text-gray-600">
-        With a user-friendly interface, responsive design, and a seamless itinerary planner, it’s the perfect vault for your adventures.
-      </p>
+    <section className="page-shell pt-8">
+      <div className="section-card mx-auto max-w-4xl">
+        <p className="eyebrow">
+          About the project
+        </p>
+        <h2 className="section-title mt-3">
+          The Voyage Vault is built to make travel planning feel inviting, not cluttered.
+        </h2>
+        <p className="mt-5 text-sm leading-8 text-slate-300 md:text-base">
+          Designed by <strong className="text-white">Boipelo Kenya Moabi</strong>, the app brings
+          destination discovery and itinerary planning into one interface. The audit uncovered a few
+          common early-stage issues, including broken asset references, encoding artifacts, and a
+          layout system that needed more structure on mobile and tablet sizes.
+        </p>
+        <p className="mt-4 text-sm leading-8 text-slate-300 md:text-base">
+          The refreshed version focuses on cleaner hierarchy, stronger spacing, deploy-safe assets,
+          responsive navigation, and more polished cards and forms so the product feels ready for a
+          portfolio review or real users.
+        </p>
+      </div>
     </section>
   );
 }
